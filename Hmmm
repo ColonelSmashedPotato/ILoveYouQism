@@ -1178,7 +1178,8 @@ Section4:NewTextBox("Walkspeed", "Move like sonic", function(speed)
         end
 end)
 
-Section4:NewLabel("Note : IF TOU WANT TO RESET YOUR WALKSPEED, TYPE 16 IN THE TEXTBOX")
+Section4:NewLabel("Note : ")
+Section4:NewLabel("TYPE 16 IN THE TEXTBOX TO RESET WALKSPEED")
 
 Section4:NewToggle("Anti aim", "nobody can kill you", function(value)
     if value then
